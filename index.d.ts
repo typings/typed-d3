@@ -920,7 +920,7 @@ declare module d3 {
     export function flush(): void;
   }
 
-   interface BaseEvent {
+   interface BaseEvent extends Event {
      type: string;
      sourceEvent?: Event;
    }
